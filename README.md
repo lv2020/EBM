@@ -26,5 +26,19 @@ EBM_funcation.py则定义了所有的辅助函数，包括以下函数：
 主体函数，用于把前面所有的函数连接起来，计算socail strength并且对一部分数据进行可视化  
 12. cal  
 把main函数结果使用export_edge_list进行保存，便于下一步处理  
+  
+EBM_analysis.py则对之前的数据进行处理，分析不同参数对网络属性的影响。包括以下函数：  
+1. build_graph  
+根据之前计算好的边表重新构建图  
+2. local_centrality  
+计算局部中心度  
+3. global_centrality  
+计算全局中心度  
+4. triangle  
+计算三角关系数量  
+5. analysis_max  
+把前面的函数连接起来，统一处理  
+6. analysis_nodes_edges  
+分析随参数变化的消失的点
 
 
