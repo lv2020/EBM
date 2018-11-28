@@ -39,6 +39,8 @@ EBM_analysis.py则对之前的数据进行处理，分析不同参数对网络�
 5. analysis_max  
 把前面的函数连接起来，统一处理  
 6. analysis_nodes_edges  
-分析随参数变化的消失的点
+分析随参数变化的消失的点和边的比例  
+7. mul_process_max  
+多进程并发，加快运算速度。单个核心最长运行时间大概两个半小时
 
 
