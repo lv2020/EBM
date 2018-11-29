@@ -173,7 +173,6 @@ def main(train_data,timescale):
     
     #划分不同venue的时间分布
     venue_time_draw(VCI,timescale)
-'''
     t1=time.clock()
     D=diversity(G)
     print("计算diversity用时为：",time.clock()-t1)
@@ -202,7 +201,6 @@ def main(train_data,timescale):
     #plt.scatter(pd.value_counts(l).index,pd.value_counts(l))
     #plt.savefig('TKY_div_'+str(timescale)+'.png')
     return G
-'''
 #输出不同参数的边表，便于下一步的分析
 def cal(i):
     train_data=pd.DataFrame(np.load("TKYtraindata.npy"))
